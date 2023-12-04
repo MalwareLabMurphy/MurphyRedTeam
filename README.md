@@ -1,2 +1,4 @@
 # MurphyRedTeam
-Scripts to be used for common penetration testing techniques, for use in red team engagements or CTF challenges.
+<p>Murphy the Malware Lab is typically known to wear a purple or blue collar, but every now and then a security task requires something a little more <i>red</i>...</p>
+<p>The scripts within this repository can be used for common penetration testing techniques, as a way to streamline processes or commands that would be used during a red team exercise or capture the flag (CTF) competition. As with most of my other respositories, many of these scripts will also function as general practice/education in coding and Git workflows, so please bare with any particularly curious logic or commit messages.</p>
+<p>In case it needs to be said; these scripts are to be used only for the sake of testing security controls or in the name of competition... Any APTs or nation-state actors reading this better turn right on around, because you do not want to feel this dog's bite!</p>
