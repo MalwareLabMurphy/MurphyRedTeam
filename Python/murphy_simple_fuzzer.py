@@ -24,12 +24,14 @@ while True:
     try:
         s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
         s.connect((ip,port))
+        
+        payload= command + buffer
 
-        s.send((command + buffer))
+        s.send((payload.encode()))
         s.close()
         sleep(1)
         buffer=buffer + "A"*100
         
     except:
-        print "Fuzzing attempt crashed at %s bytes!" % str(len(buffer))
+        print ("Fuzzing attempt crashed at %s bytes!" % str(len(buffer)))
         sys.exit()
